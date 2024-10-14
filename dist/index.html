@@ -1,285 +1,272 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Jomolhari&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Jomolhari&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Italiana&family=Jomolhari&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Italiana&family=Jomolhari&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Rajdhani:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
 
 
 
 </head>
-<body class="bg-white">
-    
-  <style>
-    html {
-        scroll-behavior: smooth;
-        
-    }
+
+<style>
+  html {
+    scroll-behavior: smooth;
+
+  }
+
+
+
+
+  .swiper {
+    width: 100%;
+    height: min-content;
+  }
+
+  /* .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-button-next::after {
+    content: none;
+  }
+
+  .swiper-button-prev::after {
+    content: none;
+  }
 </style>
 </head>
+
 <body class="bg-white">
 
-  <nav class="bg-white sticky top-0 left-0 z-50">
+  <nav class="bg-white sticky top-0 left-0 z-50 ">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="/dist/img/logo.png" class="h-8" alt="Flowbite Logo" />
-          <span class="self-center text-2xl font-jomolhari whitespace-nowrap text-ijotuo-100">Pongge Antik</span>
+        <img src="/dist/img/logo.png" class="h-8" alt="Flowbite Logo" />
+        <span class="self-center text-2xl font-jomolhari whitespace-nowrap text-ijotuo-100">Pongge Antik</span>
       </a>
-      <button id="hamburgerButton" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black dark:text-oren-100 dark:hover:bg-gray-300 dark:focus:ring-oren-100" aria-controls="navbar-solid-bg" aria-expanded="false">
-          <span class="sr-only">Open main menu</span>
-          <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-          </svg>
+      <button id="hamburgerButton" type="button"
+        class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-black rounded-lg md:hidden hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-black dark:text-oren-100 dark:hover:bg-gray-300 dark:focus:ring-oren-100"
+        aria-controls="navbar-solid-bg" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M1 1h15M1 7h15M1 13h15" />
+        </svg>
       </button>
       <div class="hidden w-full md:block md:w-auto" id="navbar-solid-bg">
-        <ul class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
+        <ul
+          class="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-transparent dark:bg-gray-800 md:dark:bg-transparent dark:border-gray-700">
           <li>
-            <a href="#home" class="block py-2 px-3 md:p-0 font-jomolhari text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
+            <a href="#home"
+              class="block py-2 px-3 md:p-0 font-jomolhari text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Home</a>
           </li>
           <li>
-            <a href="#product" class="block py-2 px-3 md:p-0 font-jomolhari text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
+            <a href="#product"
+              class="block py-2 px-3 md:p-0 font-jomolhari text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Product</a>
           </li>
           <li>
-            <a href="#contact" class="block py-2 px-3 font-jomolhari md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+            <a href="#contact"
+              class="block py-2 px-3 font-jomolhari md:p-0 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-ijotuo-100 dark:text-black md:dark:hover:text-ijotuo-100 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
           </li>
         </ul>
       </div>
     </div>
   </nav>
-  
 
 
-<!-- HERO SECTION -->
-<!-- <section id="home" class="pt-36">
-  <div class="w-full">
-    <div class="flex flex-col-reverse lg:flex-row w-full">
-     
-      <div class="w-full text-start lg:text-start flex flex-col items-center px-4 md:max-w-2xl lg:w-1/2">
-        <div class="pt-8">
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-italiana text-ijotuo-100">PONGGE</h1>
-          <h1 class="text-4xl sm:text-5xl md:text-6xl font-semibold font-italiana text-oren-100">ANTIK</h1><br>
-          <h1 class="text-xl sm:text-3xl font-jomolhari text-gray-600">Catalog Meubel</h1>
-          <h1 class="text-gray-600 font-jomolhari">Made in Indonesia | Jepara</h1>
-          <button type="button" class="mt-4 text-white bg-ijotuo-100 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
+  <section id="home" class="pt-0 sm:pt-36">
+    <div class="w-full">
+      <div class="grid grid-cols-2 sm:grid-cols-2 w-full items-start h-96 sm:h-auto pb-[50px]">
+        <!-- Bagian Teks -->
+        <div class="text-start lg:text-start flex flex-col items-center px-4 self-start">
+          <div class="pt-8 ml-5 sm:ml-0 ">
+            <h1
+              class="text-5xl sm:text-5xl  md:text-8xl font-italiana text-ijotuo-100 animate-typing overflow-hidden whitespace-nowrap ">
+              PONGGE</h1>
+            <h1 class="text-5xl sm:text-5xl  md:text-8xl font-semibold font-italiana text-oren-100">ANTIK</h1><br>
+            <h1 class="text-xl sm:text-3xl font-jomolhari text-gray-600">Catalog Meubel</h1>
+            <h1 class="text-gray-600 font-jomolhari text-xs sm:text-base">Made in Indonesia | Jepara</h1>
+            <button type="button"
+              class="mt-4 text-white bg-ijotuo-100 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
+          </div>
         </div>
-      </div>
-     
-      <div class="w-full self-center pt-10 px-4 mb-8 lg:mb-0 lg:w-1/2">
-        <div >
-          <img src="./img/thumbnail-removebg-preview 1.png" alt="" class="max-w-full mx-auto">
+        <!-- Bagian Gambar -->
+        <div class="self-end pt-10 px-4 mb-8">
+          <div>
+            <img src="./img/thumbnail-removebg-preview 1.png" alt="" class="max-w-full mx-auto">
+          </div>
         </div>
       </div>
     </div>
+  </section>
+
+
+  <div class="pt-[40px] pb-[30px]  ">
+    <img class="w-full h-[300px]" src="img/Vector 1.png" alt="">
   </div>
-</section> -->
-<section id="home" class="pt-0 sm:pt-36" >
-  <div class="w-full">
-    <div class="grid grid-cols-2 sm:grid-cols-2 w-full items-start h-96 sm:h-auto">
-      <!-- Bagian Teks -->
-      <div class="text-start lg:text-start flex flex-col items-center px-4 self-start">
-        <div class="pt-8 ml-5 sm:ml-0 ">
-          <h1 class="text-5xl sm:text-5xl  md:text-8xl font-italiana text-ijotuo-100">PONGGE</h1>
-          <h1 class="text-5xl sm:text-5xl  md:text-8xl font-semibold font-italiana text-oren-100">ANTIK</h1><br>
-          <h1 class="text-xl sm:text-3xl font-jomolhari text-gray-600">Catalog Meubel</h1>
-          <h1 class="text-gray-600 font-jomolhari text-xs sm:text-base">Made in Indonesia | Jepara</h1>
-          <button type="button" class="mt-4 text-white bg-ijotuo-100 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
-        </div>
-      </div>
-      <!-- Bagian Gambar -->
-      <div class="self-end pt-10 px-4 mb-8">
-        <div >
-          <img src="./img/thumbnail-removebg-preview 1.png" alt="" class="max-w-full mx-auto">
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
+  <!-- conten 2 -->
 
-<div class="pt-36">
-  <img class="w-full h-25" class=" " src="img/Vector 1.png" alt="">
-</div>
-
-<!-- conten 2 -->
-
-<section id="product" class="max-w-5xl mx-auto m pt-8 pb-10">
-  <div class="container grid grid-cols-1 mx-auto">
-    
-    <!-- First Product -->
-    <div class="flex flex-wrap mx- items-center">
-      <div class="w-full lg:w-1/2 p-4 flex justify-center">
-        <img src="img/joglo.PNG" alt="Joglo Enjang Coffe" class="rounded-lg shadow-lg max-w-sm">
-      </div>
-      <div class="w-full lg:w-1/2 p-4">
-        <div>
-          <h2 class="font-semibold text-lg">Joglo Enjang Coffe</h2>
-          <p class="text-gray-500 mb-4">The Ellie walnut TV unit by Tikamoon! A perfect storage unit, it offers various solutions: swing doors, open niches and drawers, enabling you to organize your living room space as you wish.</p>
-          <button type="button" class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
-        </div>
-      </div>
-    </div>
-
-    <!-- Second Product -->
-    <div class="flex flex-wrap items-center  pt-8">
-      <div class="w-full lg:w-1/2  order-last lg:order-none p-4">
-        <div>
-          <h2 class="font-semibold text-lg">Vespa Kayu</h2>
-          <p class="text-gray-500 mb-4">The Ellie walnut TV unit by Tikamoon!.</p>
-          <button type="button" class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
-        </div>
-      </div>
-      <div class="w-full lg:w-1/2 p-4 flex justify-center">
-        <img src="img/vespakayu.png" alt="Vespa Kayu" class="rounded-lg shadow-lg max-w-sm">
-      </div>
-    </div>
+  <section id="product" class="max-w-5xl mx-auto m pt-8 pb-10">
+    <div class="container grid grid-cols-1 mx-auto">
 
       <!-- First Product -->
-   <div class="flex flex-wrap items-center pt-8">
-        <div class="w-full lg:w-1/2 p-4 flex justify-center">
+      <div class="flex flex-wrap mx- items-center">
+        <div class="w-full lg:w-1/2  flex justify-start">
           <img src="img/joglo.PNG" alt="Joglo Enjang Coffe" class="rounded-lg shadow-lg max-w-sm">
         </div>
         <div class="w-full lg:w-1/2 p-4">
           <div>
             <h2 class="font-semibold text-lg">Joglo Enjang Coffe</h2>
-            <p class="text-gray-500 mb-4">The Ellie walnut TV unit by Tikamoon! A perfect storage unit, it offers various solutions: swing doors, open niches and drawers, enabling you to organize your living room space as you wish.</p>
-            <button type="button" class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
+            <p class="text-gray-500 mb-4">Joglo Enjang Coffee adalah kafe unik yang terletak di dalam bangunan joglo
+              tradisional, menawarkan suasana khas Jawa dengan sentuhan modern yang hangat dan menenangkan.
+              Menggabungkan estetika arsitektur klasik joglo dengan atmosfer yang nyaman, kafe ini menjadi tempat
+              sempurna untuk menikmati kopi sambil meresapi keindahan budaya lokal.
+            </p>
+            <button type="button"
+              class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
           </div>
         </div>
-    </div>
-
-
-    <div class="flex items-center justify-center space-x-4 my-6 pt-10">
-      <div class="w-1/4 border-t-2 border-orange-500"></div>
-      <span class="text-black uppercase font-semibold">Product Katalog</span>
-      <div class="w-1/4 border-t-2 border-orange-500"></div>
-    </div>
-    
-
-    <div class="container mx-auto py-8">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-          <!-- Card 1 -->
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">525$</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-
-          <!-- Card 2 -->
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-
-          <!-- Card 3 -->
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-
-          <!-- Repeat Cards -->
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-
-          
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-          <div class="bg-green-100 p-4 rounded-lg shadow-md">
-              <img src="https://via.placeholder.com/150" alt="Product Image" class="w-full h-48 object-cover mb-4 rounded-lg">
-              <h3 class="text-lg font-semibold">Goat nakas</h3>
-              <p class="text-orange-600 font-semibold mb-2">800</p>
-              <button class="bg-green-500 text-white px-4 py-2 rounded-md">Buy</button>
-          </div>
-          <!-- Add as many cards as needed -->
-      </div>
-  </div> 
-
-
-  
-  
-  
-</div>
-
-
-
-<footer class="bg-gray-800 text-white py-8 w-full ">
-  <div class="container mx-auto flex flex-col lg:flex-row justify-between items-center">
-    <!-- Left Section: Logo and Social Media -->
-    <div class="flex flex-col items-center lg:items-start mb-4 lg:mb-0">
-      <!-- Logo -->
-      <div class="flex items-center mb-4">
-        <img src="img/logo.png" alt="Logo" class="w-16 h-16 mr-2">
-        <span class="text-lg font-semibold">CV. Pongge Antik</span>
       </div>
 
-      <!-- Social Media Icons -->
-      <div class="flex space-x-4">
-        <a href="#" class="text-orange-500">
-           <img class="w-10 h-auto" src="img/whatsapp_733641.png" alt="">
-        </a>
-        <a href="#" class="text-orange-500">
-          <i class="fab fa-instagram text-3xl"></i>
-        </a>
-        <a href="img/whatsapp_733641.png" class="text-orange-500">
-          <i class="fab fa-whatsapp text-3xl"></i>
-        </a>
+      <!-- Second Product -->
+      <div class="flex flex-wrap items-center  pt-8">
+        <div class="w-full lg:w-1/2  order-last lg:order-none p-4">
+          <div>
+            <h2 class="font-semibold text-lg">Vespa Kayu</h2>
+            <p class="text-gray-500 mb-4">Vespa Kayu adalah karya seni unik yang menggabungkan keindahan desain ikonik
+              Vespa dengan keahlian pengrajin kayu. Dibuat sepenuhnya dari bahan kayu berkualitas, setiap detail dari
+              replika Vespa ini diukir secara manual, menciptakan kesan estetis yang memikat. Vespa Kayu memadukan
+              bentuk klasik Vespa dengan sentuhan alami dari tekstur dan serat kayu, menjadikannya sebuah karya yang
+              tidak hanya merepresentasikan nostalgia, tetapi juga keahlian craftsmanship yang tinggi.</p>
+            <button type="button"
+              class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 p-4 flex justify-end">
+          <img src="img/vespakayu.png" alt="Vespa Kayu" class="rounded-lg shadow-lg max-w-sm">
+        </div>
+      </div>
+
+      <!-- First Product -->
+      <div class="flex flex-wrap items-center pt-8">
+        <div class="w-full lg:w-1/2 p-4 flex justify-start">
+          <img src="img/vw _kayu.jpg" alt="Joglo Enjang Coffe" class="rounded-lg shadow-lg max-w-sm">
+        </div>
+        <div class="w-full lg:w-1/2 p-4">
+          <div>
+            <h2 class="font-semibold text-lg">VW kayu</h2>
+            <p class="text-gray-500 mb-4">VW kayu adalah replika ikonik mobil Volkswagen yang dibuat sepenuhnya dari
+              bahan kayu dengan detail craftsmanship yang tinggi. Setiap bagian dari mobil ini, mulai dari bodi hingga
+              interior, diukir secara manual oleh pengrajin terampil, menciptakan kombinasi sempurna antara seni dan
+              fungsionalitas. </p>
+            <button type="button"
+              class="mt-4 text-white bg-ijotuo-100 hover:bg-oren-100 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Order</button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="flex items-center justify-center space-x-4 my-6 pt-10">
+        <div class="w-1/4 border-t-2 border-orange-500"></div>
+        <span class="text-black uppercase font-semibold">Product Katalog</span>
+        <div class="w-1/4 border-t-2 border-orange-500"></div>
+      </div>
+
+      <!-- caraousel katalog -->
+      <div class="carousel">
+        <div class="carousel-items">
+          <div id="container1" class="container">
+            <div class="container mx-auto py-8 flex flex-wrap gap-y-5 justify-center md:justify-between gap-x-2"
+              id="product-container">
+              <!-- Products will be dynamically inserted here -->
+            </div>
+
+            <!-- Pagination Controls -->
+            <div class="flex justify-center space-x-2 mt-6" id="pagination-controls"></div>
+          </div>
+
+
+          <!-- Tambahkan container lainnya di sini -->
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+
+  <!-- footer -->
+  <footer id="contact" class="bg-ijooo-1200 w-full h-[250px] flex justify-between items-center p-8 text-white">
+    <!-- Kiri: Logo dan Nama Perusahaan -->
+    <div class="flex flex-col items-center  space-x-3">
+      <div flex flex-row11 style="display: flex;">
+        <img src="img/logo.png" alt="Logo Pongge Antiek" class="h-[50px] w-[50px]">
+        <h4 style="margin-top: 12px; margin-left: 5px;" class="font-jomolhari text-lg text-start ">CV. Pongge Antik</h4>
+      </div>
+      <div class="flex flex-row">
+        <button><img src="img/logo_facebook.png" alt=""></button></li>
+        <button><img src="img/logo_ig.png" alt=""></button></li>
+        <button><img src="img/logo_wa.png" alt=""></button></li>
       </div>
     </div>
 
-    <!-- Right Section: Contact Info -->
-    <div class="flex flex-col items-center lg:items-start">
-      <h3 class="text-lg font-semibold mb-2">Contact Us</h3>
-      <p>pongeantik@gmail.com</p>
-      <p>Jl. Sultan Hadlirin Ngabul RT3 / RW2</p>
-      <p>085292270056</p>
+    <!-- Tengah: Kontak Informasi -->
+    <div class="text-center">
+      <h4 class="font-jomolhari">CONTACT US</h4>
+      <h5 class="font-jomolhari">pongeantik@gmail.com</h5>
+      <h5 class="font-jomolhari">Jl. SULTAN HADLIRIN NGABUL RT03 / RW02</h5>
+      <h5 class="font-jomolhari"> <img src="" alt="">085292270056</h5>
     </div>
-  </div>
 
-  <!-- Divider Line -->
-  <div class="mt-8 border-t border-gray-700"></div>
-</footer>
-
-
-
+    <!-- Kanan: Logo dan Media Sosial -->
+    <div class="flex flex-col items-center">
+      <img src="img/logo.png" alt="Logo Pongge Antiek" class="h-[80px] w-[80px] mb-4">
+    </div>
+  </footer>
 
 
 
- <script src="app.js"></script>
 
 
- 
+
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+
+
 
 </body>
+
 </html>
