@@ -36,6 +36,11 @@ module.exports = {
       }
     },
   },
+  content: [
+    './dist/*.{html,js}',
+    './src/**/*.{html,js}',
+  ],
+  
   plugins: [
     require('flowbite/plugin')
   ],
